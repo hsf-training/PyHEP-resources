@@ -1,9 +1,6 @@
 # pyhep_python_libraries
-Python libraries of interest to particle physicists.
 
-Domain-specific 
-
-[[toc]]
+Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change.
 
 ## New to Python
 
@@ -22,8 +19,8 @@ Python entered into the particle physics ecosystem since it was useful as a 'glu
 
 Please be aware that wrapping C code is signficantly easier than wrapping C++ code due to details of how function names get garbled in libraries within C++.
 
-| Package name  | Use | Caveats |Further information |
-| ------------- | ------------- |
-| pybind11  | Wrapping existing C++ codes  | Small elegant package | Learning curve | Henry's slides |
-| Cython  | ...  | | |
-| swig | 
+| Package name  | Use | Pro | Con | Further information |
+| ------------- | --- | --- | --- | ------------------- |
+| pybind11  | Wrapping existing C++ codes  | Small elegant package | Have to code up binding | Henry's slides |
+| Cython  | ...  | | | |
+| swig | ...  | | | |
