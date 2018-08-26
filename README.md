@@ -1,5 +1,7 @@
 # Python Libraries of Interest to Particle Physics
 
+[![Join the chat at https://gitter.im/HSF/PyHEP](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/HSF/PyHEP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change.
 
 ## New to Python
