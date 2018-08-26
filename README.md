@@ -79,3 +79,11 @@ At present, the best summary of how to bind code in HEP applications comes from 
 | Cython  | Wrapping C++ code  | Widely used. | Weird syntax?| |
 | swig | Wrapping C++ code  | Widely used. | Have to write wrapper file and feels dated. | |
 | Boost | Wrapping C++ code | Widely used.  | Giant dependency since Boost does many other things.| |
+
+## Experimental codes
+
+Stealing code from other physicists is its own sign of flattery:
+
+|  Name | Collaboration | Use | Further information | 
+| ----- | ---------- | --- | ------------------- |
+
