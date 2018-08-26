@@ -17,6 +17,7 @@ If you are new to Python, the following contains general information on using Py
 | Name         | Use             | 
 | ------------ | --------------- |
 | [Anaconda Package Manager](https://conda.io/docs/user-guide/getting-started.html) | Anaconda packages most scientific Python libraries while also living purely in user space.  Therefore, you don't need special permissions to setup. |
+| [ripa](https://github.com/tunnell/ripa) | ripa solves the packaging issue by letting you install packages (or requirements.txt) where priority given to conda channels, otherwise fetches from PyPI. (Works but rough) |
 
 
 ## Scientific Python Stack
