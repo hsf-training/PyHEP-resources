@@ -38,7 +38,7 @@ Notable mentions:
 
 ## Tutorials
 
-/Who has good tutorials to add?/
+*Who has good tutorials to add?*
 
 ## ROOT
 
