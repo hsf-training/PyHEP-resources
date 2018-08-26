@@ -84,8 +84,8 @@ At present, the best summary of how to bind code in HEP applications comes from 
 
 ## Experimental codes
 
-Stealing code from other physicists is its own sign of flattery:
+Stealing code from other physicists is its own sign of flattery.  Codes that are abandoned more than two years will get struck through.:
 
-|  Name | Collaboration | Use | Further information | 
-| ----- | ---------- | --- | ------------------- |
+|  Name | Collaboration | Use | Further information | Date added to list |
+| ----- | ---------- | --- | ------------------- | --------------------- |
 
