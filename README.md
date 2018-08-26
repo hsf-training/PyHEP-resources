@@ -71,9 +71,11 @@ Please be aware that wrapping C code is signficantly easier than wrapping C++ co
 
 At present, the best summary of how to bind code in HEP applications comes from Henry Schreiner in a [2018 PyHEP talk](https://indico.cern.ch/event/694818/contributions/2985778/attachments/1682465/2703470/PyHEPTalk.pdf)
 
+(TODO: improve table.  Most non-pybind11 have given me hundreds of hours of pain so I can't comment objectively)
+
 | Package name  | Use | Pro | Con | Further information |
 | ------------- | --- | --- | --- | ------------------- |
 | pybind11  | Wrapping existing C++ codes  | Small elegant package | Have to code up binding | Henry's slides |
-| Cython  | ...  | | | |
-| swig | ...  | | | |
-| Boost | ... | | | |
+| Cython  | Wrapping C++ code  | Widely used. | Weird syntax?| |
+| swig | Wrapping C++ code  | Widely used. | Have to write wrapper file and feels dated. | |
+| Boost | Wrapping C++ code | Widely used.  | Giant dependency since Boost does many other things.| |
