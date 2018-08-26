@@ -1,4 +1,4 @@
-# pyhep_python_libraries
+# Python Libraries of Interest to Particle Physics
 
 Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change.
 
@@ -7,11 +7,13 @@ Python libraries of interest to particle physicists.  This is meant to be a livi
 If you are new to Python, the following contains general information on using Python in Science.
 
 | Name         | Use             | 
+| ------------ | --------------- |
 | [Software Carpentry Python Lesson ](http://swcarpentry.github.io/python-novice-inflammation/) | Lesson aimed at people who have never used Python before.  |
 
 ## Getting Python
 
 | Name         | Use             | 
+| ------------ | --------------- |
 | [Anaconda Package Manager](https://conda.io/docs/user-guide/getting-started.html) | Anaconda packages most scientific Python libraries while also living purely in user space.  Therefore, you don't need special permissions to setup. |
 
 
@@ -20,6 +22,7 @@ If you are new to Python, the following contains general information on using Py
 The packages that are used in Physics and/or data science within Python grew somewhat organically before forming the current ecosystem.  Detailed information on what exists can be found [here](https://scipy.org/about.html), but we will summarize here.
 
 | Name         | Use             | 
+| ------------ | --------------- |
 | [numpy](http://www.numpy.org) | Array and matrix operations (including math operations) at C speeds. | 
 | [pandas](https://pandas.pydata.org) | A very elegant way to work with tabular data (i.e. ntuples) with in memory calculations.  Especially good at time series. |
 | [scipy](https://www.scipy.org) | Various scientific routines like minimization. |
@@ -29,6 +32,7 @@ The packages that are used in Physics and/or data science within Python grew som
 Notable mentions:
 
 | Name         | Use             | 
+| ------------ | --------------- |
 | [seaborn](https://seaborn.pydata.org) | Easier to use plotting library with some statistical routines, builds on matplotlib, but annoying to customize. |
 | [tensorflow](http://scikit-learn.org/stable/index.html) | For deep neural networks. |
 
@@ -54,6 +58,7 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 Often, it is not needed anymore to write C++/C routines that get wrapped since there are other ways to speed up your Python code.  Namely:
 
 | Name         | Use             | 
+| ------------ | --------------- |
 | [numba](https://numba.pydata.org) | Tight loops are often the slow part of Python code, where this compiles them! |
 | [numpy](http://www.numpy.org) | Expressing your code as array options means you get native-C speeds. | 
 
