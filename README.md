@@ -36,10 +36,9 @@ Notable mentions:
 | [seaborn](https://seaborn.pydata.org) | Easier to use plotting library with some statistical routines, builds on matplotlib, but annoying to customize. |
 | [tensorflow](http://scikit-learn.org/stable/index.html) | For deep neural networks. |
 
-
-
-
 ## Tutorials
+
+/Who has good tutorials to add?/
 
 ## ROOT
 
