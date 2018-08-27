@@ -50,6 +50,7 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | Package name | Use | Pro | Con | Further information |
 | ------------ | --- | --- | --- | ------------------- |
 | [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependencies | Purely for reading ROOT files to exit ROOT ecosystem | | 
+| root_numpy, root_pandas | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT | |
 | [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT | [Recipes](https://github.com/NLeSC/root-conda-recipes) | 
 | [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  | 
 | [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user based than PyROOT | [Repository](https://github.com/rootpy/rootpy/) | 
@@ -62,7 +63,9 @@ Often, it is not needed anymore to write C++/C routines that get wrapped since t
 | Name         | Use             | 
 | ------------ | --------------- |
 | [numba](https://numba.pydata.org) | Tight loops are often the slow part of Python code, where this compiles them! |
+| Pythran | whole scripts |
 | [numpy](http://www.numpy.org) | Expressing your code as array options means you get native-C speeds. | 
+| NumExpr | single pass "mapper" operations (one input → one output |
 
 ## Binding C/C++ to Python
 
@@ -79,7 +82,7 @@ At present, the best summary of how to bind code in HEP applications comes from 
 | Package name  | Use | Pro | Con | Further information |
 | ------------- | --- | --- | --- | ------------------- |
 | pybind11  | Wrapping existing C++ codes  | Small elegant package | Have to code up binding | Henry's slides |
-| Cython  | Wrapping C++ code  | Widely used. | Weird syntax?| |
+| Cython  | Wrapping C++ code  | Widely used, freely mixing Python and C++. | Weird syntax, incomplete coverage of C++ | |
 | swig | Wrapping C++ code  | Widely used. | Have to write wrapper file and feels dated. | |
 | Boost | Wrapping C++ code | Widely used.  | Giant dependency since Boost does many other things.| |
 
