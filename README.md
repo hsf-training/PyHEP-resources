@@ -26,6 +26,7 @@ The packages that are used in Physics and/or data science within Python grew som
 
 | Name         | Use             | 
 | ------------ | --------------- |
+| [jupyter notebook](https://jupyter.org) | Main one way of doing interactive and/or exploratory analysis. |
 | [numpy](http://www.numpy.org) | Array and matrix operations (including math operations) at C speeds. | 
 | [pandas](https://pandas.pydata.org) | A very elegant way to work with tabular data (i.e. ntuples) with in memory calculations.  Especially good at time series. |
 | [scipy](https://www.scipy.org) | Various scientific routines like minimization. |
