@@ -17,6 +17,7 @@ If you are new to Python, the following contains general information on using Py
 | Name         | Use             | 
 | ------------ | --------------- |
 | [Anaconda Package Manager](https://conda.io/docs/user-guide/getting-started.html) | Anaconda packages most scientific Python libraries while also living purely in user space.  Therefore, you don't need special permissions to setup. |
+| [pipenv](https://pipenv.readthedocs.io/en/latest/) | Official Python way |
 | [ripa](https://github.com/tunnell/ripa) | ripa solves the packaging issue by letting you install packages (or requirements.txt) where priority given to conda channels, otherwise fetches from PyPI. (Works but rough) |
 
 
@@ -39,6 +40,7 @@ Notable mentions:
 | ------------ | --------------- |
 | [seaborn](https://seaborn.pydata.org) | Easier to use plotting library with some statistical routines, builds on matplotlib, but annoying to customize. |
 | [tensorflow](http://scikit-learn.org/stable/index.html) | For deep neural networks. |
+| PyTorch / keras | Higher level neural network interfaces |
 
 ## Tutorials
 
@@ -52,9 +54,9 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | ------------ | --- | --- | --- | ------------------- |
 | [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependencies | Purely for reading ROOT files to exit ROOT ecosystem | | 
 | root_numpy, root_pandas | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT | |
-| [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT | [Recipes](https://github.com/NLeSC/root-conda-recipes) | 
+| [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) | 
 | [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  | 
-| [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user based than PyROOT | [Repository](https://github.com/rootpy/rootpy/) | 
+| [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) | 
 
 
 ## Speeding up code
@@ -82,7 +84,7 @@ At present, the best summary of how to bind code in HEP applications comes from 
 
 | Package name  | Use | Pro | Con | Further information |
 | ------------- | --- | --- | --- | ------------------- |
-| pybind11  | Wrapping existing C++ codes  | Small elegant package | Have to code up binding | Henry's slides |
+| pybind11  | Wrapping existing C++ codes  | Small elegant package | Young but quickly widely used. | Henry's slides |
 | Cython  | Wrapping C++ code  | Widely used, freely mixing Python and C++. | Weird syntax, incomplete coverage of C++ | |
 | swig | Wrapping C++ code  | Widely used. | Have to write wrapper file and feels dated. | |
 | Boost | Wrapping C++ code | Widely used.  | Giant dependency since Boost does many other things.| |
