@@ -6,11 +6,31 @@ Python libraries of interest to particle physicists.  This is meant to be a livi
 
 ## New to Python
 
-If you are new to Python, the following contains general information on using Python in Science.
+If you are new to Python, the following contains general information on using Python in Science.  
 
 | Name         | Use             | 
 | ------------ | --------------- |
 | [Software Carpentry Python Lesson ](http://swcarpentry.github.io/python-novice-inflammation/) | Lesson aimed at people who have never used Python before.  |
+| [Scipy tutorials](https://scipy2017.scipy.org/ehome/220975/493423/) | You'll want the beginner courses, the intermediate/advanced courses are actually quite advanced. Setup instructions are linked on the page, videos are [here](https://www.youtube.com/playlist?list=PLYx7XA2nY5GfdAFycPLBdUDOUtdQIVoMf) |
+| [Dive into Python 3](http://www.diveintopython3.net/index.html) | Very useful for learning python, though it's a bit old and doesn't cover any of the scientific python stuff you really need. | 
+| [Code academy](https://www.codecademy.com/learn/python) | |
+| Many EdX and Coursera courses | Often introductory CS courses which can teach other useful skills (algorithms and datastructures) |
+| (The python docs)[https://docs.python.org/3/] | |
+
+Otherwise, just google python + description of problem, usually answer is on stackoverflow.
+
+Youtube channels with talks / tutorials:
+
+Pycon, e.g.:
+  * https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg (2017)
+  * https://www.youtube.com/channel/UCwTD5zJbsQGJN75MwbykYNw (2016)
+  * https://www.youtube.com/channel/UCgxzjK6GuOHVKR_08TT4hJQ (2015)
+
+Some more advanced talks of interested:
+  * Ned Batchelder, "Facts and Myths about Python names and values" https://www.youtube.com/watch?v=_AEJHKGk9ns
+  * David Baumgold, "Advanced Git" https://www.youtube.com/watch?v=4EOZvow1mk4
+  * David Beazley, "Discovering python" https://www.youtube.com/watch?v=RZ4Sn-Y7AP8.
+  * Thomas Ballinger, "Finding closure with closures" https://www.youtube.com/watch?v=E9wS6LdXM8Y
 
 ## Getting Python
 
@@ -41,6 +61,12 @@ Notable mentions:
 | [seaborn](https://seaborn.pydata.org) | Easier to use plotting library with some statistical routines, builds on matplotlib, but annoying to customize. |
 | [tensorflow](http://scikit-learn.org/stable/index.html) | For deep neural networks. |
 | PyTorch / keras | Higher level neural network interfaces |
+
+General information through talks tthat maybe  useful on PyData (various conferences each year):
+  * https://www.youtube.com/user/PyDataTV and other per-conference channels
+  * Scipy conferences, e.g. https://www.youtube.com/playlist?list=PLYx7XA2nY5Gf37zYZMw6OqGFRPjB1jCy6
+  * Enthought: https://www.youtube.com/user/EnthoughtMedia
+  * Continuum Analytics: https://www.youtube.com/channel/UCND4vKhJssAtK8p1Blfj14Q
 
 ## Tutorials
 
