@@ -70,12 +70,12 @@ General information through talks tthat maybe  useful on PyData (various confere
 
 ## Jupyter extensions
 
-Jupyter has a wide ecosystem of extensions that can be used to extend the functionality. Some useful extensions of HEP data analysis are summarised here.
+Jupyter has a wide ecosystem of extensions that can be used to extend the functionality. Some useful extensions for HEP data analysis are summarised here.
 
 | Name         | Use             |
 | ------------ | --------------- |
 | nbdime       | Simplifies diffing and merging of jupyter notebooks that are stored in version control. |
-| jupytext     | Splits notebook into a `.ipynb` and `.py` file for easier version control to allow them to run as scripts idependently of jupyer. |
+| jupytext     | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts idependently of jupyter. |
 
 ## Tutorials
 
