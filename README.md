@@ -50,6 +50,7 @@ The packages that are used in Physics and/or data science within Python grew som
 | [jupyter notebook](https://jupyter.org) | Main one way of doing interactive and/or exploratory analysis. |
 | [numpy](http://www.numpy.org) | Array and matrix operations (including math operations) at C speeds. | 
 | [pandas](https://pandas.pydata.org) | A very elegant way to work with tabular data (i.e. ntuples) with in memory calculations.  Especially good at time series. |
+[xarray](http://xarray.pydata.org/en/stable/why-xarray.html#core-data-structures) | Extension of pandas to N-Dim structures |
 | [scipy](https://www.scipy.org) | Various scientific routines like minimization. |
 | [matplotlib](https://matplotlib.org) | Main Python plotting library.  Start from [matplotlib gallery](https://matplotlib.org/gallery.html) then adapt to your application. |
 | [scikit-learn](http://scikit-learn.org/stable/index.html) | Very easy to use machine learning routines with great examples. |
@@ -60,7 +61,8 @@ Notable mentions:
 | ------------ | --------------- |
 | [seaborn](https://seaborn.pydata.org) | Easier to use plotting library with some statistical routines, builds on matplotlib, but annoying to customize. |
 | [tensorflow](http://scikit-learn.org/stable/index.html) | For deep neural networks. |
-| PyTorch / keras | Higher level neural network interfaces |
+| [pytorch](https://pytorch.org) | deep learning framework for fast, flexible experimentation with dynamic computational graphs |
+| [keras](https://keras.io) | Higher level neural network interfaces | 
 
 General information through talks tthat maybe  useful on PyData (various conferences each year):
   * https://www.youtube.com/user/PyDataTV and other per-conference channels
@@ -70,7 +72,7 @@ General information through talks tthat maybe  useful on PyData (various confere
 
 ## Tutorials
 
-*Who has good tutorials to add?*
+See tutorials here and other resources collected by [IML HEP-ML Resources](https://github.com/iml-wg/HEP-ML-Resources#tutorials)
 
 ## ROOT
 
@@ -84,6 +86,7 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  | 
 | [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) | 
 | [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | [Repository](https://github.com/alphatwirl/alphatwirl) | 
+| [pyhf](https://github.com/diana-hep/pyhf) | pure python implementation of histfactory |
 
 
 ## Speeding up code
