@@ -86,7 +86,7 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  | 
 | [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) | 
 | [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | [Repository](https://github.com/alphatwirl/alphatwirl) | 
-| [pyhf](https://github.com/diana-hep/pyhf) | statistical analysis / fitting | pure python implementation of HistFactory specification | not yet interoperable with ROOT-based RooFit models | [pyhf](https://github.com/diana-hep/pyhf) |
+| [pyhf](https://github.com/diana-hep/pyhf) | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | [pyhf](https://github.com/diana-hep/pyhf) |
 
 
 ## Speeding up code
