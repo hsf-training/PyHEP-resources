@@ -15,7 +15,7 @@ If you are new to Python, the following contains general information on using Py
 | [Dive into Python 3](http://www.diveintopython3.net/index.html) | Very useful for learning python, though it's a bit old and doesn't cover any of the scientific python stuff you really need. | 
 | [Code academy](https://www.codecademy.com/learn/python) | |
 | Many EdX and Coursera courses | Often introductory CS courses which can teach other useful skills (algorithms and datastructures) |
-| (The python docs)[https://docs.python.org/3/] | |
+| [The python docs](https://docs.python.org/3/) | |
 
 Otherwise, just google python + description of problem, usually answer is on stackoverflow.
 
@@ -69,6 +69,15 @@ General information through talks tthat maybe  useful on PyData (various confere
   * Scipy conferences, e.g. https://www.youtube.com/playlist?list=PLYx7XA2nY5Gf37zYZMw6OqGFRPjB1jCy6
   * Enthought: https://www.youtube.com/user/EnthoughtMedia
   * Continuum Analytics: https://www.youtube.com/channel/UCND4vKhJssAtK8p1Blfj14Q
+
+## Jupyter extensions
+
+Jupyter has a wide ecosystem of extensions that can be used to extend the functionality. Some useful extensions for HEP data analysis are summarised here.
+
+| Name         | Use             |
+| ------------ | --------------- |
+| nbdime       | Simplifies diffing and merging of jupyter notebooks that are stored in version control. |
+| jupytext     | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts idependently of jupyter. |
 
 ## Tutorials
 
