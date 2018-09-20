@@ -52,6 +52,7 @@ The packages that are used in Physics and/or data science within Python grew som
 | [numpy](http://www.numpy.org) | Array and matrix operations (including math operations) at C speeds. | 
 | [pandas](https://pandas.pydata.org) | A very elegant way to work with tabular data (i.e. ntuples) with in memory calculations.  Especially good at time series. |
 [xarray](http://xarray.pydata.org/en/stable/why-xarray.html#core-data-structures) | Extension of pandas to N-Dim structures |
+| [h5py](http://www.h5py.org/) | Simple numpy to HDF5 bindings (backend for Keras saved models) |
 | [scipy](https://www.scipy.org) | Various scientific routines like minimization. |
 | [matplotlib](https://matplotlib.org) | Main Python plotting library.  Start from [matplotlib gallery](https://matplotlib.org/gallery.html) then adapt to your application. |
 | [scikit-learn](http://scikit-learn.org/stable/index.html) | Very easy to use machine learning routines with great examples. |
