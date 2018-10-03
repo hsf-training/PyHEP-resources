@@ -3,17 +3,19 @@
 [![Join the chat at https://gitter.im/HSF/PyHEP](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/HSF/PyHEP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![DOI](https://zenodo.org/badge/144829348.svg)](https://zenodo.org/badge/latestdoi/144829348)
 
-Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change.
+Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change(s).
+
+You are more than welcome to join the [HSF/PyHEP Gitter channel](https://gitter.im/HSF/PyHEP) and contribute to the informal discussions there.
 
 ## New to Python
 
 If you are new to Python, the following contains general information on using Python in Science.  
 
-| Name         | Use             | 
+| Name         | Use             |
 | ------------ | --------------- |
 | [Software Carpentry Python Lesson ](http://swcarpentry.github.io/python-novice-inflammation/) | Lesson aimed at people who have never used Python before.  |
 | [Scipy tutorials](https://scipy2017.scipy.org/ehome/220975/493423/) | You'll want the beginner courses, the intermediate/advanced courses are actually quite advanced. Setup instructions are linked on the page, videos are [here](https://www.youtube.com/playlist?list=PLYx7XA2nY5GfdAFycPLBdUDOUtdQIVoMf) |
-| [Dive into Python 3](http://www.diveintopython3.net/index.html) | Very useful for learning python, though it's a bit old and doesn't cover any of the scientific python stuff you really need. | 
+| [Dive into Python 3](http://www.diveintopython3.net/index.html) | Very useful for learning python, though it's a bit old and doesn't cover any of the scientific python stuff you really need. |
 | [Code academy](https://www.codecademy.com/learn/python) | |
 | Many EdX and Coursera courses | Often introductory CS courses which can teach other useful skills (algorithms and datastructures) |
 | [The python docs](https://docs.python.org/3/) | |
@@ -35,10 +37,10 @@ Some more advanced talks of interested:
 
 ## Getting Python
 
-| Name         | Use             | 
+| Name         | Use             |
 | ------------ | --------------- |
 | [Anaconda Package Manager](https://conda.io/docs/user-guide/getting-started.html) | Anaconda packages most scientific Python libraries while also living purely in user space.  Therefore, you don't need special permissions to setup. |
-| [pipenv](https://pipenv.readthedocs.io/en/latest/) | Official Python way |
+| [pipenv](https://pipenv.readthedocs.io/en/latest/) | Official Python way. |
 | [ripa](https://github.com/tunnell/ripa) | ripa solves the packaging issue by letting you install packages (or requirements.txt) where priority given to conda channels, otherwise fetches from PyPI. (Works but rough) |
 
 
@@ -46,31 +48,44 @@ Some more advanced talks of interested:
 
 The packages that are used in Physics and/or data science within Python grew somewhat organically before forming the current ecosystem.  Detailed information on what exists can be found [here](https://scipy.org/about.html), but we will summarize here.
 
-| Name         | Use             | 
+| Name         | Use             |
 | ------------ | --------------- |
 | [jupyter notebook](https://jupyter.org) | Main one way of doing interactive and/or exploratory analysis. |
-| [numpy](http://www.numpy.org) | Array and matrix operations (including math operations) at C speeds. | 
+| [numpy](http://www.numpy.org) | Array and matrix operations (including math operations) at C speeds. |
 | [pandas](https://pandas.pydata.org) | A very elegant way to work with tabular data (i.e. ntuples) with in memory calculations.  Especially good at time series. |
-[xarray](http://xarray.pydata.org/en/stable/why-xarray.html#core-data-structures) | Extension of pandas to N-Dim structures |
-| [h5py](http://www.h5py.org/) | Simple numpy to HDF5 bindings (backend for Keras saved models) |
+[xarray](http://xarray.pydata.org/en/stable/why-xarray.html#core-data-structures) | Extension of pandas to N-Dim structures. |
+| [h5py](http://www.h5py.org/) | Simple numpy to HDF5 bindings (backend for Keras saved models). |
 | [scipy](https://www.scipy.org) | Various scientific routines like minimization. |
 | [matplotlib](https://matplotlib.org) | Main Python plotting library.  Start from [matplotlib gallery](https://matplotlib.org/gallery.html) then adapt to your application. |
 | [scikit-learn](http://scikit-learn.org/stable/index.html) | Very easy to use machine learning routines with great examples. |
 
+Visualisation:
+
+| Name         | Use             |
+| ------------ | --------------- |
+| [matplotlib](https://matplotlib.org) | Main Python plotting library.  Start from [matplotlib gallery](https://matplotlib.org/gallery.html) then adapt to your application. |
+| [seaborn](https://seaborn.pydata.org) | Easier to use plotting library with some statistical routines. Builds on matplotlib, but annoying to customize. |
+| [vegascope](https://github.com/scikit-hep/vegascope) | View Vega/Vega-Lite plots in your web browser from local or remote Python processes. |
+
 Notable mentions:
 
-| Name         | Use             | 
+| Name         | Use             |
 | ------------ | --------------- |
-| [seaborn](https://seaborn.pydata.org) | Easier to use plotting library with some statistical routines, builds on matplotlib, but annoying to customize. |
 | [tensorflow](http://scikit-learn.org/stable/index.html) | For deep neural networks. |
-| [pytorch](https://pytorch.org) | deep learning framework for fast, flexible experimentation with dynamic computational graphs |
-| [keras](https://keras.io) | Higher level neural network interfaces | 
+| [pytorch](https://pytorch.org) | deep learning framework for fast, flexible experimentation with dynamic computational graphs. |
+| [keras](https://keras.io) | Higher level neural network interfaces. |
 
 General information through talks tthat maybe  useful on PyData (various conferences each year):
   * https://www.youtube.com/user/PyDataTV and other per-conference channels
   * Scipy conferences, e.g. https://www.youtube.com/playlist?list=PLYx7XA2nY5Gf37zYZMw6OqGFRPjB1jCy6
   * Enthought: https://www.youtube.com/user/EnthoughtMedia
   * Continuum Analytics: https://www.youtube.com/channel/UCND4vKhJssAtK8p1Blfj14Q
+
+## Particle Physics packages
+| Name         | Use             |
+| ------------ | --------------- |
+| [numpythia](https://github.com/scikit-hep/numpythia) | Interface between FastJet and NumPy. |
+| [pyjet](https://github.com/scikit-hep/pyjet) | Interface between PYTHIA and NumPy. |
 
 ## Jupyter extensions
 
@@ -85,18 +100,18 @@ Jupyter has a wide ecosystem of extensions that can be used to extend the functi
 
 See tutorials here and other resources collected by [IML HEP-ML Resources](https://github.com/iml-wg/HEP-ML-Resources#tutorials)
 
-## ROOT
+## ROOT and interoperability with ROOT
 
 For many particle physics experiments, a lot of data is stored within ROOT files.  This means at very least one must have the ability to read ROOT files.  ROOT also serves as a tool suite designed to solve many computational problems encountered in HEP, which means that one may want to access some of this tool suite.  The following packages below are worth knowing for these situations:
 
 | Package name | Use | Pro | Con | Further information |
 | ------------ | --- | --- | --- | ------------------- |
-| [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although can read all ROOT files, can only write ROOT files with specific objects | | 
+| [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although can read all ROOT files, can only write ROOT files with specific objects. | |
 | root_numpy, root_pandas | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT | |
-| [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) | 
-| [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  | 
-| [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) | 
-| [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | [Repository](https://github.com/alphatwirl/alphatwirl) | 
+| [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) |
+| [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
+| [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) |
+| [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | [Repository](https://github.com/alphatwirl/alphatwirl) |
 | [pyhf](https://github.com/diana-hep/pyhf) | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | [pyhf](https://github.com/diana-hep/pyhf) |
 
 
@@ -104,12 +119,12 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 
 Often, it is not needed anymore to write C++/C routines that get wrapped since there are other ways to speed up your Python code.  Namely:
 
-| Name         | Use             | 
+| Name         | Use             |
 | ------------ | --------------- |
 | [numba](https://numba.pydata.org) | Tight loops are often the slow part of Python code, where this compiles them! |
 | Pythran | whole scripts |
-| [numpy](http://www.numpy.org) | Expressing your code as array options means you get native-C speeds. | 
-| NumExpr | single pass "mapper" operations (one input → one output |
+| [numpy](http://www.numpy.org) | Expressing your code as array options means you get native-C speeds. |
+| NumExpr | single pass "mapper" operations (one input &rarr; one output). |
 
 ## Binding C/C++ to Python
 
@@ -136,4 +151,3 @@ Stealing code from other physicists is its own sign of flattery.  Codes that are
 
 |  Name | Collaboration | Use | Further information | Date added to list |
 | ----- | ---------- | --- | ------------------- | --------------------- |
-
