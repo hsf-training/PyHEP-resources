@@ -35,6 +35,7 @@ Some more advanced talks of interested:
   * David Beazley, "Discovering python" https://www.youtube.com/watch?v=RZ4Sn-Y7AP8.
   * Thomas Ballinger, "Finding closure with closures" https://www.youtube.com/watch?v=E9wS6LdXM8Y
 
+
 ## Getting Python
 
 | Name         | Use             |
@@ -81,11 +82,34 @@ General information through talks tthat maybe  useful on PyData (various confere
   * Enthought: https://www.youtube.com/user/EnthoughtMedia
   * Continuum Analytics: https://www.youtube.com/channel/UCND4vKhJssAtK8p1Blfj14Q
 
+
 ## Particle Physics packages
 | Name         | Use             |
 | ------------ | --------------- |
 | [numpythia](https://github.com/scikit-hep/numpythia) | Interface between FastJet and NumPy. |
 | [pyjet](https://github.com/scikit-hep/pyjet) | Interface between PYTHIA and NumPy. |
+
+
+## Tutorials
+
+See tutorials here and other resources collected by [IML HEP-ML Resources](https://github.com/iml-wg/HEP-ML-Resources#tutorials).
+
+
+## ROOT and interoperability with ROOT
+
+For many particle physics experiments, a lot of data is stored within ROOT files.  This means at very least one must have the ability to read ROOT files.  ROOT also serves as a tool suite designed to solve many computational problems encountered in HEP, which means that one may want to access some of this tool suite.  The following packages below are worth knowing for these situations:
+
+| Package name | Use | Pro | Con | Further information |
+| ------------ | --- | --- | --- | ------------------- |
+| [ostap](https://github.com/OstapHEP/ostap) | User-friendly &amp; more intuitive interface to(Py)ROOT | Many decorations to ROOT classes | Requires C++ code compilation |  |
+| [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although can read all ROOT files, can only write ROOT files with specific objects. | |
+| root_numpy, root_pandas | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT | |
+| [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) |
+| [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
+| [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) |
+| [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | [Repository](https://github.com/alphatwirl/alphatwirl) |
+| [pyhf](https://github.com/diana-hep/pyhf) | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | [pyhf](https://github.com/diana-hep/pyhf) |
+
 
 ## Jupyter extensions
 
@@ -95,24 +119,6 @@ Jupyter has a wide ecosystem of extensions that can be used to extend the functi
 | ------------ | --------------- |
 | nbdime       | Simplifies diffing and merging of jupyter notebooks that are stored in version control. |
 | jupytext     | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts idependently of jupyter. |
-
-## Tutorials
-
-See tutorials here and other resources collected by [IML HEP-ML Resources](https://github.com/iml-wg/HEP-ML-Resources#tutorials)
-
-## ROOT and interoperability with ROOT
-
-For many particle physics experiments, a lot of data is stored within ROOT files.  This means at very least one must have the ability to read ROOT files.  ROOT also serves as a tool suite designed to solve many computational problems encountered in HEP, which means that one may want to access some of this tool suite.  The following packages below are worth knowing for these situations:
-
-| Package name | Use | Pro | Con | Further information |
-| ------------ | --- | --- | --- | ------------------- |
-| [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although can read all ROOT files, can only write ROOT files with specific objects. | |
-| root_numpy, root_pandas | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT | |
-| [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) |
-| [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
-| [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) |
-| [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | [Repository](https://github.com/alphatwirl/alphatwirl) |
-| [pyhf](https://github.com/diana-hep/pyhf) | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | [pyhf](https://github.com/diana-hep/pyhf) |
 
 
 ## Speeding up code
@@ -125,6 +131,7 @@ Often, it is not needed anymore to write C++/C routines that get wrapped since t
 | Pythran | whole scripts |
 | [numpy](http://www.numpy.org) | Expressing your code as array options means you get native-C speeds. |
 | NumExpr | single pass "mapper" operations (one input &rarr; one output). |
+
 
 ## Binding C/C++ to Python
 
@@ -144,6 +151,7 @@ At present, the best summary of how to bind code in HEP applications comes from 
 | Cython  | Wrapping C++ code  | Widely used, freely mixing Python and C++. | Weird syntax, incomplete coverage of C++ | |
 | swig | Wrapping C++ code  | Widely used. | Have to write wrapper file and feels dated. | |
 | Boost | Wrapping C++ code | Widely used.  | Giant dependency since Boost does many other things.| |
+
 
 ## Experimental codes
 
