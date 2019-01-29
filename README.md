@@ -76,7 +76,7 @@ Notable mentions:
 | [pytorch](https://pytorch.org) | deep learning framework for fast, flexible experimentation with dynamic computational graphs. |
 | [keras](https://keras.io) | Higher level neural network interfaces. |
 
-General information through talks tthat maybe  useful on PyData (various conferences each year):
+General information through talks that maybe useful on PyData (various conferences each year):
   * https://www.youtube.com/user/PyDataTV and other per-conference channels
   * Scipy conferences, e.g. https://www.youtube.com/playlist?list=PLYx7XA2nY5Gf37zYZMw6OqGFRPjB1jCy6
   * Enthought: https://www.youtube.com/user/EnthoughtMedia
@@ -104,7 +104,8 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | [ostap](https://github.com/OstapHEP/ostap) | User-friendly &amp; more intuitive interface to(Py)ROOT | Many decorations to ROOT classes | Requires C++ code compilation |  |
 | [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although can read all ROOT files, can only write ROOT files with specific objects. | |
 | root_numpy, root_pandas | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT | |
-| [ROOT conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) |
+| [Conda-Forge ROOT](https://github.com/conda-forge/root-feedstock) | Using ROOT within Anaconda | Full-featured ROOT and PyROOT 6.14+ on Linux | Not available on macOS yet |  |
+| [NLeSC: ROOT on conda](https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html) | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) |
 | [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
 | [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) |
 | [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | [Repository](https://github.com/alphatwirl/alphatwirl) |
@@ -117,8 +118,8 @@ Jupyter has a wide ecosystem of extensions that can be used to extend the functi
 
 | Name         | Use             |
 | ------------ | --------------- |
-| nbdime       | Simplifies diffing and merging of jupyter notebooks that are stored in version control. |
-| jupytext     | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts idependently of jupyter. |
+| [nbdime](https://github.com/jupyter/nbdime)       | Simplifies diffing and merging of jupyter notebooks that are stored in version control. |
+| [jupytext](https://github.com/mwouts/jupytext)     | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts idependently of jupyter. |
 
 
 ## Speeding up code
@@ -128,9 +129,9 @@ Often, it is not needed anymore to write C++/C routines that get wrapped since t
 | Name         | Use             |
 | ------------ | --------------- |
 | [numba](https://numba.pydata.org) | Tight loops are often the slow part of Python code, where this compiles them! |
-| Pythran | whole scripts |
+| [Pythran](https://pythran.readthedocs.io/en/latest/) | whole scripts |
 | [numpy](http://www.numpy.org) | Expressing your code as array options means you get native-C speeds. |
-| NumExpr | single pass "mapper" operations (one input &rarr; one output). |
+| [NumExpr](https://numexpr.readthedocs.io/en/latest/user_guide.html) | single pass "mapper" operations (one input &rarr; one output). |
 
 
 ## Binding C/C++ to Python
@@ -139,19 +140,18 @@ Often, it is not needed anymore to write C++/C routines that get wrapped since t
 
 Python entered into the particle physics ecosystem since it was useful as a 'glue lanaguage'.  This means that you can get multiple softwares in different languages to work with one another.  Given the large ecosystem of Python packages in the last decade, this is less common now.  However, the situation still does arise that you want to call some existing C/C++ code from Python.
 
-Please be aware that wrapping C code is signficantly easier than wrapping C++ code due to details of how function names get garbled in libraries within C++.
+Please be aware that wrapping C code is signficantly easier than wrapping C++ code due to details of how function names get garbled in libraries within C++; but the tools below can make wrapping C++ easy as well.
 
-At present, the best summary of how to bind code in HEP applications comes from Henry Schreiner in a [2018 PyHEP talk](https://indico.cern.ch/event/694818/contributions/2985778/attachments/1682465/2703470/PyHEPTalk.pdf)
-
-(TODO: improve table.  Most non-pybind11 have given me hundreds of hours of pain so I can't comment objectively)
+At present, the best summary of how to bind code in HEP applications comes from Henry Schreiner in a [2018 PyHEP talk][Binding Python].
 
 | Package name  | Use | Pro | Con | Further information |
 | ------------- | --- | --- | --- | ------------------- |
-| pybind11  | Wrapping existing C++ codes  | Small elegant package | Young but quickly widely used. | Henry's slides |
-| Cython  | Wrapping C++ code  | Widely used, freely mixing Python and C++. | Weird syntax, incomplete coverage of C++ | |
-| swig | Wrapping C++ code  | Widely used. | Have to write wrapper file and feels dated. | |
-| Boost | Wrapping C++ code | Widely used.  | Giant dependency since Boost does many other things.| |
+| pybind11  | Wrapping existing C++ codes  | Small elegant package, simple build. | Young but gaining populatiry quickly. | [Henry's slides][Binding Python] |
+| Cython  | Wrapping C++ code  | Widely used, freely mixing Python and C++. | Mix of C and Python is a new language, incomplete coverage of C++. | |
+| swig | Wrapping C++ code  | Widely used, multiple languages. | Have to write wrapper file, harder to customize, and development is slow/dated. | |
+| Boost | Wrapping C++ code | Widely used.  | Giant dependency since Boost does many other things, uses "jam" to build.| |
 
+[Binding Python]: https://indico.cern.ch/event/694818/contributions/2985778/attachments/1682465/2703470/PyHEPTalk.pdf
 
 ## Experimental codes
 
