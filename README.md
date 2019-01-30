@@ -49,7 +49,7 @@ Some more advanced talks of interested:
 | ------------ | --------------- |
 | [Conda][] | Anaconda packages most scientific Python libraries while also living purely in user space.  Therefore, you don't need special permissions to setup. Anaconda is a metapackage of 100 or so scientific Python packages for Conda. |
 | [pipenv][] | Very slick all-in-one combination of virtual environments and package installation, can manage Python installs too. |
-| [ripa]([] | ripa solves the packaging issue by letting you install packages (or requirements.txt) where priority given to conda channels, otherwise fetches from PyPI. (Works but rough) |
+| [ripa][] | ripa solves the packaging issue by letting you install packages (or requirements.txt) where priority given to conda channels, otherwise fetches from PyPI. (Works but rough) |
 
 [Conda]:  https://conda.io/docs/user-guide/getting-started.html
 [pipenv]: https://pipenv.readthedocs.io/en/latest/
