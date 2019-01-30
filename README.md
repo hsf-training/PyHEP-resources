@@ -119,6 +119,7 @@ Jupyter has a wide ecosystem of extensions that can be used to extend the functi
 | ------------ | --------------- |
 | nbdime       | Simplifies diffing and merging of jupyter notebooks that are stored in version control. |
 | jupytext     | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts idependently of jupyter. |
+| [RISE](https://damianavila.github.io/RISE/) | Turn Jupyter Notebooks (not Lab, yet) into executable slide presentations; solves the "scrolling problem" of using Jupyter for talks. |
 
 
 ## Speeding up code
