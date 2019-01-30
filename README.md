@@ -78,7 +78,7 @@ The packages that are used in Physics and/or data science within Python grew som
 [scipy]:              https://www.scipy.org
 [matplotlib]:         https://matplotlib.org
 [matplotlib gallery]: https://matplotlib.org/gallery.html
-[scikit-learn]:       http://scikit-learn.org/stable/index.html) 
+[scikit-learn]:       http://scikit-learn.org/stable/index.html
 
 
 Visualisation:
@@ -96,12 +96,11 @@ Machine learning:
 
 | Name         | Use             |
 | ------------ | --------------- |
-| [scikit-learn][] | Popular package. |
+| [scikit-learn][] | Popular package. Very easy to use ML routines, with great examples. |
 | [tensorflow][] | By Google, for deep neural networks and more. |
 | [pytorch][] | Deep learning framework for fast, flexible experimentation with dynamic computational graphs. |
 | [keras][] | Higher level neural network interfaces. |
 
-[scikit-learn]: http://scikit-learn.org/stable/index.html
 [tensorflow]: http://tensorflow.org
 [pytorch]: https://pytorch.org
 [keras]: https://keras.io
