@@ -13,7 +13,7 @@ If you are new to Python, the following contains general information on using Py
 
 | Name         | Use             |
 | ------------ | --------------- |
-| [Software Carpentry Python Lesson ](http://swcarpentry.github.io/python-novice-inflammation/) | Lesson aimed at people who have never used Python before.  |f
+| [Software Carpentry Python Lesson ](http://swcarpentry.github.io/python-novice-inflammation/) | Lesson aimed at people who have never used Python before.  |
 | [Scipy tutorials](https://scipy2017.scipy.org/ehome/220975/493423/) | You'll want the beginner courses, the intermediate/advanced courses are actually quite advanced. Setup instructions are linked on the page, videos are [here](https://www.youtube.com/playlist?list=PLYx7XA2nY5GfdAFycPLBdUDOUtdQIVoMf) |
 | [Dive into Python 3](http://www.diveintopython3.net/index.html) | Very useful for learning python, though it's a bit old and doesn't cover any of the scientific python stuff you really need. |
 | [Code academy](https://www.codecademy.com/learn/python) | |
