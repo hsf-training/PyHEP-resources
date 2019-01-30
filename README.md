@@ -135,20 +135,29 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 
 | Package name | Use | Pro | Con | Further information |
 | ------------ | --- | --- | --- | ------------------- |
-| [ostap](https://github.com/OstapHEP/ostap) | User-friendly &amp; more intuitive interface to(Py)ROOT | Many decorations to ROOT classes | Requires C++ code compilation |  |
-| [uproot](https://github.com/scikit-hep/uproot) | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although it can read all ROOT files, can only write ROOT files with specific objects. | |
+| [ostap][] | User-friendly &amp; more intuitive interface to(Py)ROOT | Many decorations to ROOT classes | Requires C++ code compilation |  |
+| [uproot][] | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although it can read all ROOT files, can only write ROOT files with specific objects. | |
 | [root_numpy][], [root_pandas][] | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT, partially superceded by `AsMatrix` in ROOT 6.14+ | |
-| [Conda-Forge ROOT](https://github.com/conda-forge/root-feedstock) | Using ROOT within Anaconda | Full-featured ROOT and PyROOT 6.16 on Linux | Not available on macOS yet |  |
+| [Conda-Forge ROOT][] | Using ROOT within Anaconda | Full-featured ROOT and PyROOT 6.16 on Linux | Not available on macOS yet |  |
 | [NLeSC: ROOT on conda][] | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) |
-| [PyROOT](https://root.cern.ch/pyroot) | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
-| [rootpy](http://www.rootpy.org) | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository](https://github.com/rootpy/rootpy/) |
-| [alphatwirl](https://github.com/alphatwirl/alphatwirl) | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl](https://github.com/alphatwirl/qtwirl) | Not for data type conversion | |
-| [pyhf](https://github.com/diana-hep/pyhf) | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | |
+| [PyROOT][] | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
+| [rootpy][] | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository][rootpy repository] |
+| [alphatwirl][] | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl][] | Not for data type conversion | |
+| [pyhf][] | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | |
 
-
-[root_numpy]: http://scikit-hep.org/root_numpy/
-[root_pandas]: https://github.com/scikit-hep/root_pandas
+[ostap]:                https://github.com/OstapHEP/ostap
+[uproot]:               https://github.com/scikit-hep/uproot
+[root_numpy]:           http://scikit-hep.org/root_numpy/
+[root_pandas]:          https://github.com/scikit-hep/root_pandas
+[Conda-Forge ROOT]:     https://github.com/conda-forge/root-feedstock
 [NLeSC: ROOT on conda]: https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html
+[PyROOT]:               https://root.cern.ch/pyroot
+[rootpy]:               http://www.rootpy.org
+[rootpy repository]:    https://github.com/rootpy/rootpy/
+[alphatwirl]:           https://github.com/alphatwirl/alphatwirl
+[qtwirl]:               https://github.com/alphatwirl/qtwirl
+[pyhf]:                 https://github.com/diana-hep/pyhf
+
 
 ## Jupyter extensions
 
