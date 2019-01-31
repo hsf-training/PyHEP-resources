@@ -3,7 +3,7 @@
 [![Join the chat at https://gitter.im/HSF/PyHEP](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/HSF/PyHEP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1420444.svg)](https://doi.org/10.5281/zenodo.1420444)
 
-Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change(s). This is meant to focus on Python resources for new users; if you just want to look for different libraries for a particular purpose, please visit [the Python section of the awesome-hep](https://github.com/iris-hep/awesome-hep#python) list.
+Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change(s). This is meant to focus on Python resources for new-ish users; if you just want to look for different libraries for a particular purpose, please visit [the Python section of the awesome-hep](https://github.com/iris-hep/awesome-hep#python) list.
 
 You are more than welcome to join the [HSF/PyHEP Gitter channel](https://gitter.im/HSF/PyHEP) and contribute to the informal discussions there.
 
