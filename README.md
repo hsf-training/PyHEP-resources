@@ -117,8 +117,8 @@ General information through talks that may be useful on PyData (various conferen
 ## Particle Physics packages
 | Name         | Use             |
 | ------------ | --------------- |
-| [numpythia][] | Interface between FastJet and NumPy. |
-| [pyjet][] | Interface between PYTHIA and NumPy. |
+| [pyjet][] | Interface between FastJet and NumPy. |
+| [numpythia][] | Interface between PYTHIA and NumPy. |
 
 [numpythia]: https://github.com/scikit-hep/numpythia
 [pyjet]:     https://github.com/scikit-hep/pyjet
