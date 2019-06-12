@@ -5,7 +5,12 @@
 
 Python libraries of interest to particle physicists.  This is meant to be a living document.  Therefore, if you have suggestions, click the edit button then make a pull request with your proposed change(s). This is meant to focus on Python resources for new-ish users; if you just want to look for different libraries for a particular purpose, please visit [the Python section of the awesome-hep](https://github.com/iris-hep/awesome-hep#python) list.
 
-You are more than welcome to join the [HSF/PyHEP Gitter channel](https://gitter.im/HSF/PyHEP) and contribute to the informal discussions there.
+You are more than welcome to join the [HSF/PyHEP Gitter channel](https://gitter.im/HSF/PyHEP)
+and contribute to the informal discussions there.
+The channel [HSF/PyHEP-newcomers Gitter channel](https://gitter.im/HSF/PyHEP-newcomers) specifically targets, well, newcomers.
+
+See the [HSF](https://hepsoftwarefoundation.org/) PyHEP Working Group [page](https://hepsoftwarefoundation.org/workinggroups/pyhep.html)
+for a full list of Gitter channels and resources.
 
 ## New to Python
 
