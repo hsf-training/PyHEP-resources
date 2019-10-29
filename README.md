@@ -143,7 +143,6 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | [uproot][] | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although it can read all ROOT files, can only write ROOT files with specific objects. | |
 | [root_numpy][], [root_pandas][] | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT, partially superceded by `AsMatrix` in ROOT 6.14+ | |
 | [Conda-Forge ROOT][] | Using ROOT within Anaconda | Full-featured ROOT and PyROOT 6.16 on Linux | Not available on macOS yet |  |
-| [NLeSC: ROOT on conda][] | Using ROOT within Anaconda | Easy to get ROOT installed with PyROOT support | Not all features of ROOT and getting dated (6.04 Py2.7/3.4 since XENON1T uses that) | [Recipes](https://github.com/NLeSC/root-conda-recipes) |
 | [PyROOT][] | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
 | [rootpy][] | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository][rootpy repository] |
 | [alphatwirl][] | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl][] | Not for data type conversion | |
