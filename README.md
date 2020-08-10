@@ -142,9 +142,9 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | [ostap][] | User-friendly &amp; more intuitive interface to(Py)ROOT | Many decorations to ROOT classes | Requires C++ code compilation |  |
 | [uproot][] | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although it can read all ROOT files, can only write ROOT files with specific objects. | |
 | [root_numpy][], [root_pandas][] | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT, partially superceded by `AsMatrix` in ROOT 6.14+ | |
-| [Conda-Forge ROOT][] | Using ROOT within Anaconda | Full-featured ROOT and PyROOT on Linux and OSX |  |  |
-| [PyROOT][] | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code |  |
-| [rootpy][] | Pythonic ROOT access | More logical for people who know Python | Smaller user base than PyROOT, abandoned? | [Repository][rootpy repository] |
+| [Conda-Forge ROOT][] | Using ROOT within Anaconda | Full-featured ROOT and PyROOT on Linux and macOS |  |  |
+| [PyROOT][] | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code (improved in 6.22) |  |
+| [rootpy][] | Pythonic ROOT access | More logical for people who know Python | Abandoned, mostly replaced by ROOT 6.22+ new bindings or the uproot family. | [Repository][rootpy repository] |
 | [alphatwirl][] | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl][] | Not for data type conversion | |
 | [pyhf][] | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | |
 
