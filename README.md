@@ -122,10 +122,18 @@ General information through talks that may be useful on PyData (various conferen
 ## Particle Physics packages
 | Name         | Use             |
 | ------------ | --------------- |
-| [pyjet][] | Interface between FastJet and NumPy. |
+| [DecayLanguage][] | Describe, manipulate and display particle decays. |
+| [hepunits][] | Units and constants in the HEP system of units. |
+| [Particle][] | PDG particle data and identification codes. |
 | [numpythia][] | Interface between PYTHIA and NumPy. |
+| [pylhe][] | Interface to read Les Houches Event (LHE) files. |
+| [pyjet][] | Interface between FastJet and NumPy. |
 
+[DecayLanguage]: https://github.com/scikit-hep/decaylanguage
+[hepunits]: https://github.com/scikit-hep/hepunits
 [numpythia]: https://github.com/scikit-hep/numpythia
+[Particle]:  https://github.com/scikit-hep/particle
+[pylhe]:     https://github.com/scikit-hep/pylhe
 [pyjet]:     https://github.com/scikit-hep/pyjet
 
 ## Tutorials
