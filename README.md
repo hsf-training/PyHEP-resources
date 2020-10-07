@@ -191,7 +191,7 @@ Often, it is not needed anymore to write C++/C routines that get wrapped since t
 | [numba][] | Tight loops are often the slow part of Python code, where this JIT compiles them! |
 | [Pythran][] | Whole scripts |
 | [numpy][] | Expressing your code as array options means you get native-C speeds per sub-expression. |
-| [jax][] | Allows compiling and running numpy operations on accelerated hardware like GPU's. Also offers a JIT-compiler (less sofisticated than numba), automatic analytic differentiation (gradient) of python functions and efficient vectorization. Was developed with the aim of being able to develop efficient machine learning algorithms "from scratch" with numpy-like code. |
+| [jax][] | Allows compiling and running NumPy operations on accelerated hardware such as GPU's. Also offers a JIT compiler (less sophisticated than Numba), automatic analytic differentiation (gradient) of Python functions and efficient vectorization. Was developed with the aim of being able to develop efficient machine learning algorithms "from scratch" with NumPy-like code.
 | [NumExpr][] | Single pass "mapper" operations (one input &rarr; one output). |
 
 [numba]:   https://numba.pydata.org
