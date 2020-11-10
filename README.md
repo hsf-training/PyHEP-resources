@@ -117,12 +117,36 @@ General information through talks that may be useful on PyData (various conferen
   * [Continuum Analytics](https://www.youtube.com/channel/UCND4vKhJssAtK8p1Blfj14Q)
 
 
+## Data manipulation
 
+| Name         | Use             |
+| ------------ | --------------- |
+| [boost-histogram][] | Python bindings for the C++14 Boost::Histogram library. |
+| [hist][] | Analyst-friendly front-end for boost-histogram. |
+
+[boost-histogram]: https://github.com/scikit-hep/boost-histogram
+[hist]: https://github.com/scikit-hep/hist
+
+
+## Statistical analysis and fitting
+
+| Name         | Use             |
+| ------------ | --------------- |
+| [iminuit][] | Jupyter-friendly Python frontend to the MINUIT2 C++ library. |
+| [hepstats][] | HEP statistics tools and utilities. |
+| [pyhf][] | Pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet. |
+| [zfit][] | Scalable pythonic fitting. |
+
+[iminuit]: https://github.com/scikit-hep/iminuit
+[hepstats]: https://github.com/scikit-hep/hepstats
+[pyhf]: https://github.com/scikit-hep/pyhf
+[zfit]: https://github.com/zfit/zfit
 
 ## Particle Physics packages
 | Name         | Use             |
 | ------------ | --------------- |
 | [DecayLanguage][] | Describe, manipulate and display particle decays. |
+| [hepstats][] | HEP statistics tools and utilities. |
 | [hepunits][] | Units and constants in the HEP system of units. |
 | [Particle][] | PDG particle data and identification codes. |
 | [numpythia][] | Interface between PYTHIA and NumPy. |
@@ -135,10 +159,6 @@ General information through talks that may be useful on PyData (various conferen
 [Particle]:  https://github.com/scikit-hep/particle
 [pylhe]:     https://github.com/scikit-hep/pylhe
 [pyjet]:     https://github.com/scikit-hep/pyjet
-
-## Tutorials
-
-See tutorials here and other resources collected by [IML HEP-ML Resources](https://github.com/iml-wg/HEP-ML-Resources#tutorials).
 
 
 ## ROOT and interoperability with ROOT
@@ -167,7 +187,6 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 [rootpy repository]:    https://github.com/rootpy/rootpy/
 [alphatwirl]:           https://github.com/alphatwirl/alphatwirl
 [qtwirl]:               https://github.com/alphatwirl/qtwirl
-[pyhf]:                 https://github.com/diana-hep/pyhf
 
 
 ## Jupyter extensions
@@ -222,6 +241,23 @@ At present, the best summary of how to bind code in HEP applications comes from 
 [Cython]:         https://cython.readthedocs.io/en/latest/
 [SWIG]:           http://www.swig.org
 [Boost::Python]:  https://www.boost.org/doc/libs/1_69_0/libs/python/doc/html/index.html
+
+
+## Miscellaneous
+
+Packages that do not easily fit in any of the above topics.
+
+| Name         | Use             |
+| ------------ | --------------- |
+| [comparxiv][] | Compare 2 versions of an arXiv preprint with a single command |
+
+[comparxiv]: https://pypi.org/project/comparxiv/
+
+
+## Tutorials
+
+See tutorials here and other resources collected by [IML HEP-ML Resources](https://github.com/iml-wg/HEP-ML-Resources#tutorials).
+
 
 ## Experimental codes
 
