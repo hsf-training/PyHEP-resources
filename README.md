@@ -133,13 +133,15 @@ General information through talks that may be useful on PyData (various conferen
 | Name         | Use             |
 | ------------ | --------------- |
 | [iminuit][] | Jupyter-friendly Python frontend to the MINUIT2 C++ library. |
-| [hepstats][] | HEP statistics tools and utilities. |
+| [uncertainties][] | Calculations with numbers with uncertainties. It also yields the derivatives of any expression. |
 | [pyhf][] | Pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet. |
+| [hepstats][] | HEP statistics tools and utilities. |
 | [zfit][] | Scalable pythonic fitting. |
 
 [iminuit]: https://github.com/scikit-hep/iminuit
 [hepstats]: https://github.com/scikit-hep/hepstats
 [pyhf]: https://github.com/scikit-hep/pyhf
+[uncertainties]: https://github.com/lebigot/uncertainties
 [zfit]: https://github.com/zfit/zfit
 
 ## Particle Physics packages
