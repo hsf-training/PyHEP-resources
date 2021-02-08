@@ -14,7 +14,7 @@ for a full list of Gitter channels and resources.
 
 ## New to Python
 
-If you are new to Python, the following contains general information on using Python in Science.  
+If you are new to Python, the following contains general information on using Python in Science.
 
 | Name         | Use             |
 | ------------ | --------------- |
@@ -24,6 +24,7 @@ If you are new to Python, the following contains general information on using Py
 | [Code academy][] | |
 | Many EdX and Coursera courses | Often introductory CS courses which can teach other useful skills (algorithms and datastructures) |
 | [The python docs][] | |
+| [Level Up Your Python][] | Advanced topics: Debuggers, static typing, logging, decorators, generators and more as interactive Jupyter book |
 
 [Software Carpentry Python Lesson]: http://swcarpentry.github.io/python-novice-inflammation/
 [Scipy tutorials]:                  https://scipy2017.scipy.org/ehome/220975/493423/
@@ -31,6 +32,7 @@ If you are new to Python, the following contains general information on using Py
 [Dive into Python 3]:               http://www.diveintopython3.net/index.html
 [Code academy]:                     https://www.codecademy.com/learn/python
 [The python docs]:                  https://docs.python.org/3/
+[Level Up Your Python]:             https://henryiii.github.io/level-up-your-python/
 
 Otherwise, just google python + description of problem, usually answer is on stackoverflow.
 
