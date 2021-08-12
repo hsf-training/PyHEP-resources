@@ -173,7 +173,6 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | ------------ | --- | --- | --- | ------------------- |
 | [ostap][] | User-friendly &amp; more intuitive interface to(Py)ROOT | Many decorations to ROOT classes | Requires C++ code compilation |  |
 | [uproot][] | Native Python ROOT I/O | Easy to install, fast, no dependence on C++ ROOT | Although it can read all ROOT files, can only write ROOT files with specific objects. | |
-| [root_numpy][], [root_pandas][] | ROOT to/from Numpy and Pandas, like uproot | full ROOT functionality, like TFormula | slower than uproot, binary incompatibilities with different versions of ROOT, partially superceded by `AsMatrix` in ROOT 6.14+ | |
 | [Conda-Forge ROOT][] | Using ROOT within Anaconda | Full-featured ROOT and PyROOT on Linux and macOS |  |  |
 | [PyROOT][] | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code (improved in 6.22) |  |
 | [rootpy][] | Pythonic ROOT access | More logical for people who know Python | Abandoned, mostly replaced by ROOT 6.22+ new bindings or the uproot family. | [Repository][rootpy repository] |
@@ -181,9 +180,7 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | [pyhf][] | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | |
 
 [ostap]:                https://github.com/OstapHEP/ostap
-[uproot]:               https://github.com/scikit-hep/uproot
-[root_numpy]:           http://scikit-hep.org/root_numpy/
-[root_pandas]:          https://github.com/scikit-hep/root_pandas
+[uproot]:               https://github.com/scikit-hep/uproot4
 [Conda-Forge ROOT]:     https://github.com/conda-forge/root-feedstock
 [NLeSC: ROOT on conda]: https://nlesc.gitbooks.io/cern-root-conda-recipes/content/installing_root_via_anaconda.html
 [PyROOT]:               https://root.cern.ch/pyroot
