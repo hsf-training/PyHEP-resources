@@ -226,7 +226,7 @@ Often, it is not needed anymore to write C++/C routines that get wrapped since t
 
 Python entered into the particle physics ecosystem since it was useful as a 'glue lanaguage'.  This means that you can get multiple softwares in different languages to work with one another.  Given the large ecosystem of Python packages in the last decade, this is less common now.  However, the situation still does arise that you want to call some existing C/C++ code from Python.
 
-Please be aware that wrapping C code is signficantly easier than wrapping C++ code due to details of how function names get garbled in libraries within C++; but the tools below can make wrapping C++ easy as well.
+Please be aware that wrapping C code is significantly easier than wrapping C++ code due to details of how function names get garbled in libraries within C++; but the tools below can make wrapping C++ easy as well.
 
 At present, the best summary of how to bind code in HEP applications comes from Henry Schreiner in a [2018 PyHEP talk][Binding Python].
 
