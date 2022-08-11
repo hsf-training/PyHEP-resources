@@ -1,32 +1,32 @@
 # === IMPORTANT: CENTRALLY MAINTAINED FILE ===
-# This file was automatically added via the scripts at maintenance-snippets.
-# Please do not change it. Rather, update the blueprint in maintenance-snippets/add-common-files and propagate
+# This file was automatically added via the scripts at the maintenance repository.
+# Please do not change it. Rather, update the blueprint in the maintenance repository and propagate
 # the changes from there.
 # IF YOU REALLY WANT TO MAKE REPOSITORY SPECIFIC CHANGES TO THIS FILE, PLEASE REMOVE THIS NOTICE!
 # Tag @klieret for any questions.
 # ======
 
 ci:
-    autoupdate_schedule: monthly
+  autoupdate_schedule: monthly
 
 repos:
-- repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.3.0
-  hooks:
-  - id: check-added-large-files
-  - id: check-case-conflict
-  - id: check-merge-conflict
-  - id: check-symlinks
-  - id: debug-statements
-  - id: end-of-file-fixer
-    files: ^(_episodes|README.md|setup.md)
-  - id: mixed-line-ending
-  - id: trailing-whitespace
-    files: ^(_episodes|code|README.md|setup.md)
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.3.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: debug-statements
+      - id: end-of-file-fixer
+        files: ^(_episodes|README.md|setup.md)
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+        files: ^(_episodes|code|README.md|setup.md)
 
-- repo: https://github.com/codespell-project/codespell
-  rev: 'v2.1.0'
-  hooks:
-  - id: codespell
-    args: ["-I", "codespell.txt"]
-    files: '.*\.md'
+  - repo: https://github.com/codespell-project/codespell
+    rev: "v2.1.0"
+    hooks:
+      - id: codespell
+        args: ["-I", "codespell.txt"]
+        files: '.*\.md'
