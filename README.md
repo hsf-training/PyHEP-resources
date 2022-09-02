@@ -156,6 +156,7 @@ General information through talks that may be useful on PyData (various conferen
 | [numpythia][] | Interface between PYTHIA and NumPy. |
 | [pylhe][] | Interface to read Les Houches Event (LHE) files. |
 | [pyjet][] | Interface between FastJet and NumPy. |
+| [vector][] | Arrays of 2D, 3D, and Lorentz vectors. |
 
 [DecayLanguage]: https://github.com/scikit-hep/decaylanguage
 [hepunits]: https://github.com/scikit-hep/hepunits
@@ -163,7 +164,7 @@ General information through talks that may be useful on PyData (various conferen
 [Particle]:  https://github.com/scikit-hep/particle
 [pylhe]:     https://github.com/scikit-hep/pylhe
 [pyjet]:     https://github.com/scikit-hep/pyjet
-
+[vector]:     https://github.com/scikit-hep/vector
 
 ## ROOT and interoperability with ROOT
 
