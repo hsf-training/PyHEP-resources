@@ -139,12 +139,14 @@ General information through talks that may be useful on PyData (various conferen
 | [pyhf][] | Pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet. |
 | [hepstats][] | HEP statistics tools and utilities. |
 | [zfit][] | Scalable pythonic fitting. |
+| [cabinetry][] | Constructing binned template fit models and steering statistical inference using pyhf. |
 
 [iminuit]: https://github.com/scikit-hep/iminuit
 [hepstats]: https://github.com/scikit-hep/hepstats
 [pyhf]: https://github.com/scikit-hep/pyhf
 [uncertainties]: https://github.com/lebigot/uncertainties
 [zfit]: https://github.com/zfit/zfit
+[cabinetry]: https://github.com/scikit-hep/cabinetry/
 
 ## Particle Physics packages
 | Name         | Use             |
