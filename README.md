@@ -76,6 +76,7 @@ The packages that are used in Physics and/or data science within Python grew som
 | [scipy][] | Various scientific routines like minimization. |
 | [matplotlib][] | Main Python plotting library.  Start from [matplotlib gallery][] then adapt to your application. |
 | [scikit-learn][] | Very easy to use machine learning routines with great examples. |
+| [awkward][] | Awkward Array is a library for nested, variable-sized data, including arbitrary-length lists, records, mixed types, and missing data, using NumPy-like idioms. |
 
 [jupyter notebook]:   https://jupyter.org
 [numpy]:              http://www.numpy.org
@@ -86,6 +87,7 @@ The packages that are used in Physics and/or data science within Python grew som
 [matplotlib]:         https://matplotlib.org
 [matplotlib gallery]: https://matplotlib.org/gallery.html
 [scikit-learn]:       http://scikit-learn.org/stable/index.html
+[awkward]:            https://awkward-array.org
 
 
 Visualisation:
