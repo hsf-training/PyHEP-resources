@@ -20,9 +20,9 @@ agrees to abide by our [code of conduct](CODE_OF_CONDUCT.md).
 ## How to Contribute
 
 The easiest way to get started is to file an issue
-to tell us about a spelling mistake,
+to tell us about a mistake,
 some awkward wording,
-or a factual error.
+a factual error.
 This is a good way to introduce yourself
 and to meet some of our community members.
 
@@ -43,15 +43,6 @@ and to meet some of our community members.
     you can submit a pull request (PR).
     Instructions for doing this are [included below](#using-github).
 
-## Where to Contribute
-
-1. If you wish to change the content of this lesson, work in <https://github.com/hsf-training/hsf-training-NAME-OF-MODULE>
-
-2. If you wish to change CSS style files, tools,
-    or HTML boilerplate for lessons or workshops stored in `_includes` or `_layouts`,
-    please work in <https://github.com/hsf-training/hsf-training-theme> or
-    <https://github.com/hsf-training/carpentry-cookiecutter>.
-
 ## What to Contribute
 
 There are many ways to contribute,
@@ -62,6 +53,9 @@ about things that do not work, aren not clear, or are missing.
 If you are looking for ideas, please see the 'Issues' tab for
 a list of issues associated with this repository,
 or you may also look at all issues in [hsf-training][hsf-training-issues]
+
+There is also [a list](hsf-training-gfis) of all issues that are particularly easy and suitable
+for first contributions.
 
 Comments on issues and reviews of pull requests are just as welcome:
 we are smarter together than we are on our own.
@@ -109,3 +103,4 @@ More information on how to contribute or how to contact us: [HSF training home][
 [github-join]: https://github.com/join
 [how-contribute]: https://docs.github.com/en/get-started/quickstart/contributing-to-projects
 [issues]: https://guides.github.com/features/issues/
+[hsf-training-gfis]: https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+label%3A%22good+first+issue%22+org%3Ahsf-training
