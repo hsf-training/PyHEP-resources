@@ -99,9 +99,11 @@ Visualisation:
 | [matplotlib][] | Main Python plotting library.  Start from [matplotlib gallery][] then adapt to your application. |
 | [seaborn][] | Easier to use plotting library with some statistical routines. Builds on matplotlib, but annoying to customize. |
 | [vegascope][] | View Vega/Vega-Lite plots in your web browser from local or remote Python processes. |
+| [wandb][] | Weights & Biases makes it easy to track your experiments, manage & version your data, and collaborate with your team so you can focus on building the best models. | 
 
 [seaborn]: https://seaborn.pydata.org
 [vegascope]: https://github.com/scikit-hep/vegascope
+[wandb]: https://wandb.ai/site
 
 Machine learning:
 
