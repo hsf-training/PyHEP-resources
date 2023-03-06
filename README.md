@@ -99,11 +99,9 @@ Visualisation:
 | [matplotlib][] | Main Python plotting library.  Start from [matplotlib gallery][] then adapt to your application. |
 | [seaborn][] | Easier to use plotting library with some statistical routines. Builds on matplotlib, but annoying to customize. |
 | [vegascope][] | View Vega/Vega-Lite plots in your web browser from local or remote Python processes. |
-| [wandb][] | Weights & Biases makes it easy to track your experiments, manage & version your data, and collaborate with your team so you can focus on building the best models. |
 
 [seaborn]: https://seaborn.pydata.org
 [vegascope]: https://github.com/scikit-hep/vegascope
-[wandb]: https://wandb.ai/site
 
 Machine learning:
 
@@ -113,10 +111,12 @@ Machine learning:
 | [tensorflow][] | By Google, for deep neural networks and more. |
 | [pytorch][] | Deep learning framework for fast, flexible experimentation with dynamic computational graphs. |
 | [keras][] | Higher level neural network interfaces. |
+| [wandb][] | Weights & Biases makes it easy to track your experiments, manage & version your data, and collaborate with your team so you can focus on building the best models. |
 
 [tensorflow]: http://tensorflow.org
 [pytorch]: https://pytorch.org
 [keras]: https://keras.io
+[wandb]: https://wandb.ai/site
 
 General information through talks that may be useful on PyData (various conferences each year):
   * <https://www.youtube.com/user/PyDataTV> and other per-conference channels
