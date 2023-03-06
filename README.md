@@ -39,9 +39,11 @@ Otherwise, just google python + description of problem, usually answer is on sta
 Youtube channels with talks / tutorials:
 
 Pycon, e.g.:
-  * <https://www.youtube.com/channel/UCrJhliKNQ8g0qoE_zvL8eVg> (2017)
-  * <https://www.youtube.com/channel/UCwTD5zJbsQGJN75MwbykYNw> (2016)
-  * <https://www.youtube.com/channel/UCgxzjK6GuOHVKR_08TT4hJQ> (2015)
+  * [PyCon 2019](https://www.youtube.com/@pycon2019)
+  * [PyCon 2018](https://www.youtube.com/@pycon2018)
+  * [PyCon 2017](https://www.youtube.com/@pycon2017)
+  * [PyCon 2016](https://www.youtube.com/@PyCon2016)
+  * [PyCon 2015](https://www.youtube.com/@PyCon2015)
 
 Some more advanced talks of interested:
   * [Ned Batchelder, "Facts and Myths about Python names and values"](https://www.youtube.com/watch?v=_AEJHKGk9ns)
@@ -109,10 +111,12 @@ Machine learning:
 | [tensorflow][] | By Google, for deep neural networks and more. |
 | [pytorch][] | Deep learning framework for fast, flexible experimentation with dynamic computational graphs. |
 | [keras][] | Higher level neural network interfaces. |
+| [wandb][] | Weights & Biases makes it easy to track your experiments, manage & version your data, and collaborate with your team so you can focus on building the best models. |
 
 [tensorflow]: http://tensorflow.org
 [pytorch]: https://pytorch.org
 [keras]: https://keras.io
+[wandb]: https://wandb.ai/site
 
 General information through talks that may be useful on PyData (various conferences each year):
   * <https://www.youtube.com/user/PyDataTV> and other per-conference channels
