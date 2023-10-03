@@ -185,7 +185,7 @@ For many particle physics experiments, a lot of data is stored within ROOT files
 | [Conda-Forge ROOT][] | Using ROOT within Anaconda | Full-featured ROOT and PyROOT on Linux and macOS |  |  |
 | [PyROOT][] | Official ROOT Python bindings | Good support and many examples | Raw C++ wrapping results in weird Python code (improved in 6.22) |  |
 | [rootpy][] | Pythonic ROOT access | More logical for people who know Python | Abandoned, mostly replaced by ROOT 6.22+ new bindings or the uproot family. | [Repository][rootpy repository] |
-| [alphatwirl][] | Summerizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl][] | Not for data type conversion | |
+| [alphatwirl][] | Summarizing ROOT data into categorical data as Pandas' data frames | Small output size. Easy one-function interface with [qtwirl][] | Not for data type conversion | |
 | [pyhf][] | statistical analysis / fitting | pure python implementation of HistFactory specification with auto-diff enabled backends in tensorflow, pytorch, and MXNet | not yet interoperable with ROOT-based RooFit models | |
 
 [ostap]:                https://github.com/OstapHEP/ostap
@@ -206,7 +206,7 @@ Jupyter has a wide ecosystem of extensions that can be used to extend the functi
 | Name         | Use             |
 | ------------ | --------------- |
 | [nbdime][]   | Simplifies diffing and merging of jupyter notebooks that are stored in version control. |
-| [jupytext][] | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts idependently of jupyter. |
+| [jupytext][] | Splits notebooks into a `.ipynb` and `.py` file for easier version control and to allow them to be run as scripts independently of jupyter. |
 
 [nbdime]:   https://github.com/jupyter/nbdime
 [jupytext]: https://github.com/mwouts/jupytext
