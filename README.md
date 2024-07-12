@@ -41,14 +41,10 @@ Youtube channels with talks / tutorials:
 Pycon, e.g.:
   * [PyCon 2019](https://www.youtube.com/@pycon2019)
   * [PyCon 2018](https://www.youtube.com/@pycon2018)
-  * [PyCon 2017](https://www.youtube.com/@pycon2017)
-  * [PyCon 2016](https://www.youtube.com/@PyCon2016)
-  * [PyCon 2015](https://www.youtube.com/@PyCon2015)
 
 Some more advanced talks of interested:
   * [Ned Batchelder, "Facts and Myths about Python names and values"](https://www.youtube.com/watch?v=_AEJHKGk9ns)
   * [David Baumgold, "Advanced Git"](https://www.youtube.com/watch?v=4EOZvow1mk4)
-  * [David Beazley, "Discovering python"](https://www.youtube.com/watch?v=RZ4Sn-Y7AP8)
   * [Thomas Ballinger, "Finding closure with closures"](https://www.youtube.com/watch?v=E9wS6LdXM8Y)
 
 
@@ -98,10 +94,8 @@ Visualisation:
 | ------------ | --------------- |
 | [matplotlib][] | Main Python plotting library.  Start from [matplotlib gallery][] then adapt to your application. |
 | [seaborn][] | Easier to use plotting library with some statistical routines. Builds on matplotlib, but annoying to customize. |
-| [vegascope][] | View Vega/Vega-Lite plots in your web browser from local or remote Python processes. |
 
 [seaborn]: https://seaborn.pydata.org
-[vegascope]: https://github.com/scikit-hep/vegascope
 
 Machine learning:
 
@@ -161,17 +155,15 @@ General information through talks that may be useful on PyData (various conferen
 | [hepstats][] | HEP statistics tools and utilities. |
 | [hepunits][] | Units and constants in the HEP system of units. |
 | [Particle][] | PDG particle data and identification codes. |
-| [numpythia][] | Interface between PYTHIA and NumPy. |
 | [pylhe][] | Interface to read Les Houches Event (LHE) files. |
-| [pyjet][] | Interface between FastJet and NumPy. |
+| [fastjet][] | Official FastJet bindings to Python and Awkward Array. |
 | [vector][] | Arrays of 2D, 3D, and Lorentz vectors. |
 
 [DecayLanguage]: https://github.com/scikit-hep/decaylanguage
 [hepunits]: https://github.com/scikit-hep/hepunits
-[numpythia]: https://github.com/scikit-hep/numpythia
 [Particle]:  https://github.com/scikit-hep/particle
 [pylhe]:     https://github.com/scikit-hep/pylhe
-[pyjet]:     https://github.com/scikit-hep/pyjet
+[fastjet]:     https://github.com/scikit-hep/fastjet
 [vector]:     https://github.com/scikit-hep/vector
 
 ## ROOT and interoperability with ROOT
