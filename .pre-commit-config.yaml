@@ -11,7 +11,7 @@ ci:
 
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v4.4.0
     hooks:
       - id: check-added-large-files
       - id: check-case-conflict
@@ -25,7 +25,7 @@ repos:
         files: ^(_episodes|code|README.md|setup.md)
 
   - repo: https://github.com/codespell-project/codespell
-    rev: "v2.4.1"
+    rev: "v2.2.2"
     hooks:
       - id: codespell
         args: ["-I", "codespell.txt"]

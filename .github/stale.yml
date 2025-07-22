@@ -3,7 +3,7 @@
 # Please do not change it. Rather, update the blueprint in the maintenance repository and propagate
 # the changes from there.
 # IF YOU REALLY WANT TO MAKE REPOSITORY SPECIFIC CHANGES TO THIS FILE, PLEASE REMOVE THIS NOTICE!
-# Tag @klieret for any questions.
+# Tag @michmx for any questions.
 # ======
 
 # Configuration for probot-stale - https://github.com/probot/stale
@@ -41,7 +41,7 @@ markComment: >
   This issue or pull request  has been automatically marked as stale because it has not had
   recent activity. Please manually close it, if it is no longer relevant,
   or ask for help or support to help getting it unstuck.
-  Let me bring this to the attention of @klieret @wdconinc @michmx for now.
+  Let me bring this to the attention of @amorenobr @vlukashenko @richa2710 @michmx for now.
 
 # Comment to post when removing the stale label.
 # unmarkComment: >
