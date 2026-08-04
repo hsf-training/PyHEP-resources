@@ -95,8 +95,9 @@ repository for reference while revising.
 
 More information on how to contribute or how to contact us: [HSF training home][hsf-training]
 
+[CODE_OF_CONDUCT.md]: https://github.com/hsf-training/PyHEP-resources?tab=coc-ov-file
 [hsf-training-issues]: https://github.com/issues?q=user%3Ahsf-training+is%3Aopen
-[hsf-training]: https://hepsoftwarefoundation.org/workinggroups/training.html
+[hsf-training]: https://hepsoftwarefoundation.org/activities/training.html
 [email]: mailto:https://groups.google.com/forum/#!forum/hsf-training-wg
 [github]: https://github.com
 [github-flow]: https://guides.github.com/introduction/flow/
@@ -104,3 +105,4 @@ More information on how to contribute or how to contact us: [HSF training home][
 [how-contribute]: https://docs.github.com/en/get-started/quickstart/contributing-to-projects
 [issues]: https://guides.github.com/features/issues/
 [hsf-training-gfis]: https://github.com/issues?q=is%3Aissue+is%3Aopen+archived%3Afalse+sort%3Aupdated-desc+label%3A%22good+first+issue%22+org%3Ahsf-training
+[LICENSE.md]: https://github.com/hsf-training/PyHEP-resources/blob/master/CONTRIBUTING.md
